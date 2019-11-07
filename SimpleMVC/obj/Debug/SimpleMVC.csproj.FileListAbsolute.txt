@@ -1,0 +1,15 @@
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\Debug\SimpleMVC.exe.config
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\Debug\SimpleMVC.exe
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\Debug\SimpleMVC.pdb
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\SimpleMVC.csprojAssemblyReference.cache
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\MainWindow.g.cs
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\App.g.cs
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\SimpleMVC_MarkupCompile.cache
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\SimpleMVC_MarkupCompile.lref
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\MainWindow.baml
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\SimpleMVC.g.resources
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\SimpleMVC.Properties.Resources.resources
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\SimpleMVC.csproj.GenerateResource.cache
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\SimpleMVC.csproj.CoreCompileInputs.cache
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\SimpleMVC.exe
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\SimpleMVC.pdb

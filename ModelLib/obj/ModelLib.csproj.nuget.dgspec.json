@@ -1,0 +1,62 @@
+{
+  "format": 1,
+  "restore": {
+    "D:\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\ModelLib.csproj": {}
+  },
+  "projects": {
+    "D:\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\ModelLib.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "D:\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\ModelLib.csproj",
+        "projectName": "ModelLib",
+        "projectPath": "D:\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\ModelLib.csproj",
+        "packagesPath": "C:\\Users\\User.000\\.nuget\\packages\\",
+        "outputPath": "D:\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Microsoft\\Xamarin\\NuGet\\",
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\User.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netstandard2.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netstandard2.0": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netstandard2.0": {
+          "dependencies": {
+            "NETStandard.Library": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.0.3, )",
+              "autoReferenced": true
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}
