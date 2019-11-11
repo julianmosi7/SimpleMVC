@@ -31,6 +31,7 @@ namespace SimpleMVC
         private void Window_Loaded(object sender, RoutedEventArgs e)
         {
             model.ValueChanged += Model_ValueChanged;
+            model.ColorChanged += Model_ColorChanged;
             model.MinVal = 10;
             model.MaxVal = 70;
             buttonlabel1.ChangeStep = 10;
@@ -42,15 +43,30 @@ namespace SimpleMVC
             }
         }
 
-        private void Model_ValueChanged(object sender, ValueChangedEventArgs e)
+        private void Model_ColorChanged(object sender, ValueChangedEventArgs e)
         {
+            lblVal.Background = e.getColor;
+        }
+
+        private void Model_ValueChanged(object sender, ValueChangedEventArgs e)
+        {          
             double val = e.Val;
-            lblVal.Content = val;
+            lblVal.Content = val;            
         }
 
         private void slide_ValueChanged(object sender, RoutedPropertyChangedEventArgs<double> e)
         {
             model.ColorVal = (int) e.NewValue;    
+        }
+
+        private void Button_Up_Click(object sender, RoutedEventArgs e)
+        {
+            model.Val = model.Val + 1;
+        }
+
+        private void Button_Down_Click(object sender, RoutedEventArgs e)
+        {
+            model.Val = model.Val - 1;
         }
     }
 }

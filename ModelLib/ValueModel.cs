@@ -1,10 +1,12 @@
 ﻿using System;
+using System.Windows.Media;
 
 namespace ModelLib
 {
     public class ValueModel
     {
         public event EventHandler<ValueChangedEventArgs> ValueChanged;
+        public event EventHandler<ValueChangedEventArgs> ColorChanged;
 
         private double val = 10;
 
@@ -32,12 +34,12 @@ namespace ModelLib
             set 
             {
                 colorval = value;
-                ValueChanged?.Invoke(this, new ValueChangedEventArgs { ColorVal = colorval });
+                ColorChanged?.Invoke(this, new ValueChangedEventArgs { ColorVal = colorval });
             }
         }
 
         public int MinColor { get; set; }
-        public int MaxColor { get; set; }
-
+        public int MaxColor { get; set; }              
+        
     }
 }

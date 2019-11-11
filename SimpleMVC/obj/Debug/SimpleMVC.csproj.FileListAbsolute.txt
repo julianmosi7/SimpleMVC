@@ -32,3 +32,8 @@ C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\De
 C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\Debug\UserControlLib.pdb
 C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\Debug\ModelLib.dll
 C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\Debug\ModelLib.pdb
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\Debug\ModelLib.dll
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\Debug\UserControlLib.dll
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\Debug\ModelLib.pdb
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\bin\Debug\UserControlLib.pdb
+D:\Schule\4.Klasse\POS\Project9\SimpleMVC\SimpleMVC\obj\Debug\SimpleMVC.csproj.CopyComplete

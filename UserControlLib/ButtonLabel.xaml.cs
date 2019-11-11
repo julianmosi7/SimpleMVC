@@ -36,7 +36,14 @@ namespace UserControlLib
             {
                 model = value;
                 model.ValueChanged += Model_ValueChanged;
+                model.ColorChanged += Model_ColorChanged;
             }
+        }
+
+        private void Model_ColorChanged(object sender, ValueChangedEventArgs e)
+        {            
+            Console.WriteLine(e.getColor);
+            lblVal.Background = e.getColor;
         }
 
         [Category("Data"), Description("Change step")]
@@ -52,14 +59,7 @@ namespace UserControlLib
 
         private void Model_ValueChanged(object sender, ValueChangedEventArgs e)
         {
-            double value = e.Val;
-            int color = e.getColorVal;
-            double green = 255-color;
-
-            
-            Console.WriteLine(sender);
-            SolidColorBrush br = new SolidColorBrush(Color.FromRgb(byte.Parse(green.ToString()), (byte) color, 0));
-            lblVal.Background = br;
+            double value = e.Val;            
             lblVal.Content = value;
         }
 
