@@ -1,0 +1,8 @@
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\ModelLib\obj\Debug\netstandard2.0\ModelLib.csprojAssemblyReference.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\ModelLib\obj\Debug\netstandard2.0\ModelLib.AssemblyInfoInputs.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\ModelLib\obj\Debug\netstandard2.0\ModelLib.AssemblyInfo.cs
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\ModelLib\bin\Debug\netstandard2.0\ModelLib.deps.json
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\ModelLib\bin\Debug\netstandard2.0\ModelLib.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\ModelLib\bin\Debug\netstandard2.0\ModelLib.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\ModelLib\obj\Debug\netstandard2.0\ModelLib.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\ModelLib\obj\Debug\netstandard2.0\ModelLib.pdb

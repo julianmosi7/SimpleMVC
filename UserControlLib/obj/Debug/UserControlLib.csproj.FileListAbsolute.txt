@@ -1,0 +1,15 @@
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\bin\Debug\UserControlLib.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\bin\Debug\UserControlLib.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\UserControlLib.csprojAssemblyReference.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\ButtonLabel.g.cs
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\UserControlLib_MarkupCompile.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\UserControlLib_MarkupCompile.lref
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\ButtonLabel.baml
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\UserControlLib.g.resources
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\UserControlLib.Properties.Resources.resources
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\UserControlLib.csproj.GenerateResource.cache
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\UserControlLib.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\UserControlLib.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\bin\Debug\ModelLib.dll
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\bin\Debug\ModelLib.pdb
+C:\Users\mosha\Documents\Schule\4.Klasse\POS\Project9\SimpleMVC\UserControlLib\obj\Debug\UserControlLib.csproj.CopyComplete

@@ -1,5 +1,7 @@
-﻿using System;
+﻿using ModelLib;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -18,11 +20,57 @@ namespace UserControlLib
     /// <summary>
     /// Interaction logic for UserControl1.xaml
     /// </summary>
-    public partial class UserControl1 : UserControl
+    public partial class ButtonLabel : UserControl
     {
-        public UserControl1()
+        public ButtonLabel()
         {
             InitializeComponent();
+        }
+
+        private ValueModel model;
+
+        public ValueModel Model
+        {
+            get => model;
+            set 
+            {
+                model = value;
+                model.ValueChanged += Model_ValueChanged;
+            }
+        }
+
+        [Category("Data"), Description("Change step")]
+        public int ChangeStep
+        {
+            get => Int32.Parse(buttonUp.Content.ToString());
+            set
+            {
+                buttonUp.Content = $"+{value}";
+                buttonDown.Content = $"-{value}";
+            }
+        }
+
+        private void Model_ValueChanged(object sender, ValueChangedEventArgs e)
+        {
+            double value = e.Val;
+            int color = e.getColorVal;
+            double green = 255-color;
+
+            
+            Console.WriteLine(sender);
+            SolidColorBrush br = new SolidColorBrush(Color.FromRgb(byte.Parse(green.ToString()), (byte) color, 0));
+            lblVal.Background = br;
+            lblVal.Content = value;
+        }
+
+        private void buttonUp_Click(object sender, RoutedEventArgs e)
+        {
+            model.Val = model.Val + Int32.Parse(buttonUp.Content.ToString().Substring(1, buttonUp.Content.ToString().Length - 1));
+        }
+
+        private void buttonDown_Click(object sender, RoutedEventArgs e)
+        {
+            model.Val = model.Val - Int32.Parse(buttonUp.Content.ToString().Substring(1, buttonDown.Content.ToString().Length - 1));
         }
     }
 }

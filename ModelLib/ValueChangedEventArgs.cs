@@ -4,8 +4,9 @@ using System.Text;
 
 namespace ModelLib
 {
-    class ValueChangedEventArgs : EventArgs
+    public class ValueChangedEventArgs : EventArgs
     {
         public double Val { get; set; }
+        public int ColorVal { get; set; }
     }
 }

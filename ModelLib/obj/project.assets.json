@@ -179,25 +179,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User.000\\.nuget\\packages\\": {},
-    "C:\\Microsoft\\Xamarin\\NuGet\\": {},
-    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
+    "C:\\Users\\mosha\\.nuget\\packages\\": {},
+    "C:\\Microsoft\\Xamarin\\NuGet\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "D:\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\ModelLib.csproj",
+      "projectUniqueName": "C:\\Users\\mosha\\Documents\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\ModelLib.csproj",
       "projectName": "ModelLib",
-      "projectPath": "D:\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\ModelLib.csproj",
-      "packagesPath": "C:\\Users\\User.000\\.nuget\\packages\\",
-      "outputPath": "D:\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\obj\\",
+      "projectPath": "C:\\Users\\mosha\\Documents\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\ModelLib.csproj",
+      "packagesPath": "C:\\Users\\mosha\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\mosha\\Documents\\Schule\\4.Klasse\\POS\\Project9\\SimpleMVC\\ModelLib\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
-        "C:\\Microsoft\\Xamarin\\NuGet\\",
-        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        "C:\\Microsoft\\Xamarin\\NuGet\\"
       ],
       "configFilePaths": [
-        "C:\\Users\\User.000\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\mosha\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Xamarin.Offline.config"
       ],
@@ -230,10 +228,16 @@
           }
         },
         "imports": [
-          "net461"
+          "net461",
+          "net462",
+          "net47",
+          "net471",
+          "net472",
+          "net48"
         ],
         "assetTargetFallback": true,
-        "warn": true
+        "warn": true,
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\3.0.100\\RuntimeIdentifierGraph.json"
       }
     }
   }

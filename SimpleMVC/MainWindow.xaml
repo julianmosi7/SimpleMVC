@@ -4,9 +4,28 @@
         xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:SimpleMVC"
+        xmlns:UserControlLib="clr-namespace:UserControlLib;assembly=UserControlLib"
         mc:Ignorable="d"
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>
-        
+        Title="MainWindow" Height="246.1" Width="1099.376"
+        Loaded ="Window_Loaded" >
+    <Grid Name="panMain">
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+            <ColumnDefinition Width="*"></ColumnDefinition>
+        </Grid.ColumnDefinitions>
+
+        <Grid.RowDefinitions>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+            <RowDefinition Height="*"></RowDefinition>
+        </Grid.RowDefinitions>
+        <UserControlLib:ButtonLabel Name="buttonlabel1" Grid.Column="0" Grid.Row="0" Grid.RowSpan="2"></UserControlLib:ButtonLabel>
+        <UserControlLib:ButtonLabel Name="buttonlabel2" Grid.Column="1" Grid.Row="0" Grid.RowSpan="2"></UserControlLib:ButtonLabel>
+        <Button Content="+" FontSize="24" Grid.Column="2" Grid.Row="0" Margin="110,0,93.5,10.5" VerticalAlignment="Bottom" Height="42"/>
+        <Button Content="-" FontSize="24" Grid.Column="2" Grid.Row="1" Margin="110,9.5,93.5,0" VerticalAlignment="Top" Height="44"/>
+        <Label Name="lblVal" Grid.Column="3" Grid.Row="0" VerticalAlignment="Bottom" Margin="0,0,220,0" Height="32" FontSize="16"></Label>
+        <Slider Name="slide" Grid.Column="0" Grid.Row="2" Grid.ColumnSpan="3" VerticalAlignment="Center" Margin="5" ValueChanged="slide_ValueChanged" Minimum="0" Maximum="255"></Slider>
     </Grid>
 </Window>

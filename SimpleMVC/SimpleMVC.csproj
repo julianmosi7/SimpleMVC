@@ -94,5 +94,15 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\ModelLib\ModelLib.csproj">
+      <Project>{c0c26ca8-ee62-46fc-bf9a-9c066ff07567}</Project>
+      <Name>ModelLib</Name>
+    </ProjectReference>
+    <ProjectReference Include="..\UserControlLib\UserControlLib.csproj">
+      <Project>{e453f903-1c6f-4d99-9738-6b67e9c99b11}</Project>
+      <Name>UserControlLib</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
